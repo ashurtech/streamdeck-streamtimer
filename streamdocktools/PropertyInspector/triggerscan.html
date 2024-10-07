@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>BarRaider's Stream Timer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/pickers.js"></script>
+    <script src="StreamTimer.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <div class="sdpi-item" id="dvTitlePrefix">
+            <div class="sdpi-item-label">Stash API key</div>
+            <input class="sdProperty" id="APIKEY" oninput="setSettings()" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJ4IiwiaWF0IjoxNzAyMTQ1MDI0LCJzdWIiOiJBUElLZXkifQ._17NY3GaDzyHnDaaT5zgGy9MEIAE0xOp-VmFBM-PqB4" />
+        <br>
+        <div class="sdpi-item" id="dvTitlePrefix">Stash API URL</div>
+            <input class="sdProperty" id="APIURL" oninput="setSettings()" value="http://quark-v:9999/graphql"/>
+        </div>
+    </div>
+</body>
+</html>

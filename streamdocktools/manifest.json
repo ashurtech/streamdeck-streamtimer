@@ -1,0 +1,37 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "Trigger Scan",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "13"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Count down to a specific time or date/time",
+      "UUID": "com.ashurtech.streamdocktools.TriggerScanAction",
+      "PropertyInspectorPath": "PropertyInspector/DateTimeCountdown.html"    }
+  ],
+  "Author": "BarRaider",
+  "Description": "First, with more to follow; this one triggers a library update in StashApp.",
+  "Name": "Stream Dock Tools",
+  "Icon": "Images/actionIcon",
+  "URL": "https://cats.com/",
+  "Version": "1.8",
+  "CodePath": "com.ashurtech.streamdocktools",
+  "Category": "StreamDock tools",
+  "CategoryIcon": "Images/actionIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.9"
+  }
+}

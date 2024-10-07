@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+*.history/
 # User-specific files
 *.rsuser
 *.suo
@@ -347,3 +349,45 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+streamdeck-streamtimer/App.config
+streamdeck-streamtimer/CountdownTimer.csproj
+streamdeck-streamtimer/GlobalSettings.cs
+streamdeck-streamtimer/manifest.json
+streamdeck-streamtimer/packages.config
+streamdeck-streamtimer/Program.cs
+streamdeck-streamtimer/Actions/DateTimeCountdownAction.cs
+streamdeck-streamtimer/Actions/FocusTimerAction.cs
+streamdeck-streamtimer/Actions/StreamTimerAction.cs
+streamdeck-streamtimer/Backend/FocusState.cs
+streamdeck-streamtimer/Backend/HelperUtils.cs
+streamdeck-streamtimer/Backend/TimerManager.cs
+streamdeck-streamtimer/Images/break.png
+streamdeck-streamtimer/Images/categoryIcon.png
+streamdeck-streamtimer/Images/categoryIcon@2x.png
+streamdeck-streamtimer/Images/countdownIcon.png
+streamdeck-streamtimer/Images/countdownIcon@2x.png
+streamdeck-streamtimer/Images/icon.png
+streamdeck-streamtimer/Images/icon@2x.png
+streamdeck-streamtimer/Images/inputError.png
+streamdeck-streamtimer/Images/pluginAction.png
+streamdeck-streamtimer/Images/pluginAction@2x.png
+streamdeck-streamtimer/Images/pluginIcon.png
+streamdeck-streamtimer/Images/pluginIcon@2x.png
+streamdeck-streamtimer/Images/potato.png
+streamdeck-streamtimer/Images/potatoAction.png
+streamdeck-streamtimer/Images/potatoAction@2x.png
+streamdeck-streamtimer/Images/potatoIcon.png
+streamdeck-streamtimer/Images/potatoIcon@2x.png
+streamdeck-streamtimer/Images/timerIcon.png
+streamdeck-streamtimer/Images/timerIcon@2x.png
+streamdeck-streamtimer/Properties/AssemblyInfo.cs
+streamdeck-streamtimer/PropertyInspector/DateTimeCountdown.css
+streamdeck-streamtimer/PropertyInspector/DateTimeCountdown.html
+streamdeck-streamtimer/PropertyInspector/DateTimeCountdown.js
+streamdeck-streamtimer/PropertyInspector/Focus.html
+streamdeck-streamtimer/PropertyInspector/Focus.js
+streamdeck-streamtimer/PropertyInspector/StreamTimer.html
+streamdeck-streamtimer/PropertyInspector/StreamTimer.js
+streamdeck-streamtimer/Wrappers/PlaybackDevice.cs
+streamdeck-streamtimer/Wrappers/TimerSettings.cs
+streamdeck-streamtimer/Wrappers/TimerStatus.cs
